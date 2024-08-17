@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="title">
+      <h1>Guess Number</h1>
+    </div>
+    <div id="range">
+      <h2>Range 1 - 100</h2>
+    </div>
+    <div class="input">
+      <input id="input-box" type="number" min="1" max="100" placeholder="Enter your number" >
+      <button id="submit-btn">Submit</button>
+      <button id="refresh-btn">Refresh</button>
+      </div>
+    <div>
+      <p id="message"></p>
+    </div>
+    <div>
+       <p class="chances-count"></p>
+    </div>
+    <div class="score"></div>
+    <div class="result-holder">
+      <p id="result-outcome"></p>
+    </div>
+    <div class="instructions">
+      <p>Guess the number in range 1 - 100.</p>
+      <p>You have 5 chances to guess.</p>
+      <p>Score calculation : <br> <br>
+        1 guess  = score - 100 <br>
+        2 guesses = score - 80  <br>
+        3 guesses = score - 60  <br>
+        4 guesses = score - 40 <br>
+        5 guesses = score - 20
+
+      </p>
+
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
