@@ -1,0 +1,111 @@
+body{
+  background-image:url('numbersbackground.jpg');
+  background-repeat: repeat;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+#container
+{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#title h1{
+  color: black;
+  font-size: 50px;
+}
+#range h2
+{
+  color: black;
+  margin-top: 0px;
+}
+.input #input-box
+{
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  padding:2px 4px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.input #submit-btn
+{
+  width: 80px;
+  height: 30px;
+  background-color: gray;
+  color: white;
+  padding: 2px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 1s ease;
+}
+#submit-btn:hover
+{
+  opacity: 0.8;;
+}
+.input #refresh-btn
+{
+  width: 80px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  padding: 2px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 1s ease;
+}
+#refresh-btn:hover
+{
+  opacity: 0.8;;
+}
+#message
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  text-align: center;
+  font-size: large;
+}
+.chances-count
+{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.score
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 2px;
+}
+.result-holder
+{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.instructions
+{
+  width: 100%;
+  height: 20%;
+  padding: 15px;
+  text-align: center;
+  color: black;
+}
