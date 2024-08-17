@@ -9,9 +9,6 @@ Guess the Number is a fun and interactive web-based game where players try to gu
 
 **Attempts Tracking:** The game tracks the number of attempts made by the player, adding a layer of challenge.
 
-**Responsive Design:** The game interface is designed to be responsive and visually appealing across various devices.
-
-
 ## Technologies Used
 **HTML:** Structures the game interface and input elements.
 
